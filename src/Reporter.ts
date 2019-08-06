@@ -9,11 +9,10 @@ export enum Status {
 }
 
 export enum Severity {
-    Blocker = 'blocker',
     Critical = 'critical',
-    Normal = 'normal',
+    High = 'high',
     Minor = 'minor',
-    Trivial = 'trivial'
+    Low = 'low'
 }
 
 export class Reporter {

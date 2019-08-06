@@ -7,7 +7,7 @@
   "author": "Denis Artyuhovich <dartyuhovich@evolutiongaming.com>",
   "license": "MIT",
   "scripts": {
-    "prepublish": "npm run build",
+    "postinstall": "npm run build",
     "build": "tsc"
   },
   "keywords": [
